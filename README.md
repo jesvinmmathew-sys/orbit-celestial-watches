@@ -4,6 +4,13 @@
 
 <p align="center"><strong>SIX WORLDS. ONE UNIVERSE. YOUR ORBIT.</strong></p>
 <p align="center">An immersive, scroll-driven 3D watch experience.<br>Designed on Earth. Inspired by everything beyond it.</p>
+<p align="center">
+  <a href="https://orbit-celestial-watches.vercel.app/">
+    <img src="https://img.shields.io/badge/VIEW_LIVE_WEBSITE-%E2%86%97-9DDCFF?style=for-the-badge&amp;logo=vercel&amp;logoColor=white&amp;labelColor=101827" alt="View live ORBIT website on Vercel" height="42">
+  </a>
+</p>
+<p align="center"><a href="https://orbit-celestial-watches.vercel.app/">orbit-celestial-watches.vercel.app</a><br><sub>Enter the collection · Explore six worlds · Inspect every detail</sub></p>
+
 <p align="center"><strong>Made at the HackFest 2026 Bootcamp</strong><br>Created by <a href="https://github.com/jesvinmmathew-sys">Jesvin M. Mathew</a></p>
 
 ---
@@ -35,6 +42,10 @@ The watches are procedural 3D models built in JavaScript, with geometry for case
 - **Explore on any screen** — responsive layouts adapt the journey for desktop and mobile.
 
 ## Run the experience
+
+**[Launch ORBIT in your browser →](https://orbit-celestial-watches.vercel.app/)**
+
+Prefer to explore the code locally? Follow the steps below.
 
 No build step or package installation is required. With Git and Python installed:
 
