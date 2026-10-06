@@ -3,3 +3,48 @@ html,body{background:#000!important;color:#fff}*{box-sizing:border-box;margin:0;
 .cosmos .nebula{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.78;will-change:transform}.cosmos:after{background:linear-gradient(90deg,#0005,transparent 40%,#0002),linear-gradient(0deg,#0006,transparent 38%,#0004)}header{padding-top:30px}nav a{padding:0 16px;font-size:12px}.hero{min-height:850px}.hero-copy{margin-bottom:46px}.hero-copy h1{text-shadow:0 2px 25px #0008}.hero-stats{padding-top:28px}.chapter{height:145svh;min-height:1000px;padding-left:9vw;padding-right:9vw}.chapter-copy{width:34%;max-width:430px}.chapter-copy>p:not(.eyebrow){line-height:1.85;color:#b1b6be}.chapter-word{top:16%;opacity:.75}.chapter-foot{bottom:65px}.craft{height:210svh}.craft-notes p{color:#acb3bd}.collection{height:135svh;min-height:1050px}.collection-options{bottom:7%;gap:14px 35px;grid-template-columns:repeat(3,1fr)}.collection-options button{padding:16px 0;gap:8px;background:#02040866;backdrop-filter:blur(8px)}.collection-options strong{font-size:17px}.inspect-open #scene{touch-action:none}.fallback{position:absolute;left:20%;right:20%;top:40%;padding:25px;background:#111;color:white}
 @media(max-width:1100px) and (min-width:901px){nav a{padding:0 10px}header{gap:16px}.brand{font-size:16px}.header-cta{font-size:11px;padding:0 13px}}
 @media(max-width:900px){.hero{min-height:800px}.hero-copy{margin-bottom:40px}.chapter{height:135svh;min-height:950px;padding:95px 28px}.chapter-copy{width:100%;max-width:360px}.chapter-copy>p:not(.eyebrow){line-height:1.75}.chapter-foot{bottom:38px}.collection{height:130svh;min-height:960px}.collection-options{bottom:6%;gap:10px}.collection-options button{padding:14px 5px}.collection-options strong{font-size:12px}.cosmos .nebula{object-position:55% center}.craft{height:185svh}}
+
+/* Readable edition names and a dedicated mobile stage for each timepiece. */
+.watch-stage{display:none}
+.chapter-word{left:5%;right:5%;top:7%;font-size:clamp(64px,16vw,240px);line-height:1;letter-spacing:-.055em;color:#718399;opacity:.6;text-shadow:0 2px 28px #0008;pointer-events:none;white-space:normal;overflow-wrap:anywhere}
+.chapter-copy>p:not(.eyebrow),p{color:#bec5cf}
+.eyebrow,.hero-top,.chapter-foot,.specs span,.collection-options span{color:#b5c0ce}
+em{color:#ced5df}.specs strong{color:#f0f2f6}
+.button{min-height:44px}.detail-copy .actions{flex-wrap:wrap}
+@media(max-width:900px){
+ html{scroll-padding-top:20px}
+ header{padding:20px;gap:10px;grid-template-columns:1fr auto}
+ .header-cta{display:none}.brand{font-size:19px}.burger{width:44px;height:44px}
+ nav{z-index:20;max-height:calc(100dvh - 100px);overflow:auto;border-radius:14px;background:#080d16}
+ .hero{height:auto;min-height:100svh;padding:110px 22px 32px;justify-content:flex-start}
+ .hero-top{position:static;font-size:8px;gap:12px;margin-bottom:12px}
+ .watch-stage{display:block;position:relative;width:100%;height:clamp(300px,48svh,440px);pointer-events:none}
+ .hero-stage{height:clamp(220px,32svh,330px)}
+ .hero-copy{margin:12px 0 28px;width:100%}
+ h1{font-size:clamp(32px,7.7vw,52px);line-height:1.12;letter-spacing:-.045em}
+ .hero-copy>p{font-size:14px;line-height:1.7}.hero-copy>p br{display:none}
+ .badge{font-size:10px;max-width:100%;margin-bottom:16px}
+ .actions{flex-wrap:wrap;gap:10px}.actions .button{padding:0 17px}
+ .hero-stats{gap:12px;font-size:10px;padding-top:20px;line-height:1.5}.hero-stats b{font-size:20px}
+ .scroll-label{display:none}
+ .chapter,.chapter.reverse{height:auto;min-height:0;display:flex;flex-direction:column;align-items:stretch;padding:50px 24px 30px}
+ .chapter-word{position:relative;top:auto;left:auto;right:auto;font-size:clamp(48px,15vw,112px);opacity:1;color:#8297af;margin:0 0 28px;letter-spacing:-.055em;z-index:3}
+ .chapter-copy{width:100%;max-width:540px}.chapter-copy h2{font-size:clamp(38px,9vw,56px)}
+ .chapter-copy>p:not(.eyebrow){max-width:100%;font-size:14px;line-height:1.75;margin:20px 0}
+ .eyebrow{font-size:10px;margin-bottom:16px}.specs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:24px 0}
+ .specs span{font-size:8px}.specs strong{font-size:11px;line-height:1.5}
+ .chapter-foot{position:static;gap:20px;font-size:8px;line-height:1.7}.chapter-foot span:last-child{text-align:right}
+ .craft{height:180svh}.craft-sticky{min-height:740px;padding:48px 24px 30px}.craft-heading{width:100%}.craft-heading h2{font-size:42px}
+ .craft-notes{bottom:30px;left:24px;right:24px;gap:12px}.craft-notes h3{font-size:12px;line-height:1.4}.craft-notes p{font-size:11px}
+ .collection{height:auto;min-height:0;padding:60px 24px 40px}.collection h2{font-size:44px}
+ .collection-stage{height:460px}.collection-options{position:relative;inset:auto;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+ .collection-options button{min-height:112px;padding:18px 8px;background:#080d16b3;border-radius:8px}
+ .collection-options span{font-size:10px}.collection-options strong{font-size:16px}.collection-options small{font-size:12px}
+ .journey{bottom:max(10px,env(safe-area-inset-bottom));right:10px}.journey button{min-width:36px;min-height:32px}
+ footer{padding:30px 24px 84px;gap:24px}footer small{margin-top:5px}
+ dialog{height:100dvh}.detail-copy{left:24px;right:24px;top:80px;width:auto}.detail-copy h2{font-size:34px}.detail-copy>p:not(.eyebrow){max-width:500px;font-size:13px}.detail-copy .eyebrow{margin-bottom:12px}.detail-copy .button{min-height:44px}
+ .close{width:44px;height:44px}.fallback{left:24px;right:24px;top:auto;bottom:16px;font-size:12px;padding:12px;pointer-events:none}
+}
+@media(max-width:380px){.hero{padding-left:18px;padding-right:18px}.hero-top{font-size:7px}.chapter{padding-left:20px;padding-right:20px}.specs{gap:8px}.detail-copy{left:18px;right:18px}.detail-copy .actions{gap:7px}.detail-copy .button{padding:0 12px}.collection-options strong{font-size:14px}}
+
+.fallback{top:auto;bottom:80px;left:24px;right:auto;max-width:420px;padding:14px 18px;border:1px solid #455365;border-radius:8px;font-size:13px;background:#080d16ed}
